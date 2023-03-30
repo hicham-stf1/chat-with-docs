@@ -163,8 +163,8 @@ export default function Home() {
   return (
     <>
       {/* <Layout> */}
-      <div className="mx-auto flex flex-col gap-4">
-        <h1 className="text-2xl font-bold leading-[1.1] tracking-tighter text-center">
+      <div className="mx-auto flex flex-col  gap-4">
+        <h1 className="text-2xl mt-4 text-orange-600 font-bold leading-[1.1] tracking-tighter text-center">
           Chat With Your Docs
         </h1>
         <main className={styles.main}>
