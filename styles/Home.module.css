@@ -23,9 +23,9 @@
   resize: none;
   font-size: 1.1rem;
   padding: 1rem 2rem 1rem 2rem;
-  width: 75vw;
+  width: 60vw;
   border-radius: 0.5rem;
-  border: 1px solid #d9d9e3;
+  border: 1px solid orange;
   background: #ffffff;
   color: #000;
   outline: none;
@@ -49,7 +49,7 @@
   position: absolute;
   top: 0.87rem;
   right: 1rem;
-  color: rgb(165, 162, 162);
+  color: orange;
   background: none;
   padding: 0.3rem;
   border: none;
@@ -95,9 +95,11 @@
 }
 
 .usermessage {
-  background: #ffffff;
+  background: #f7ead9;
   padding: 1.5rem;
   color: #000;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 .usermessagewaiting {
@@ -109,12 +111,14 @@
   animation: loading-gradient 2s ease-in-out infinite;
   animation-direction: alternate;
   animation-name: loading-gradient;
+  border-radius: 10px;
 }
 
 @keyframes loading-gradient {
   0% {
     background-position: -100% 0;
   }
+
   100% {
     background-position: 100% 0;
   }
@@ -131,6 +135,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -189,11 +194,9 @@
 }
 
 .cloud {
-  width: 75vw;
+  width: 60vw;
   height: 65vh;
-  background: #ffffff;
-  border-radius: 0.5rem;
-  border: 1px solid #d9d9e3;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,9 +239,11 @@
     width: 22rem;
     height: 28rem;
   }
+
   .textarea {
     width: 22rem;
   }
+
   .topnav {
     border: 1px solid black;
     align-items: center;

@@ -176,7 +176,7 @@ export default function Home() {
                 if (message.type === 'apiMessage') {
                   icon = (
                     <Image
-                      src="/bot-image.png"
+                      src="/bot.png"
                       alt="AI"
                       width="40"
                       height="40"
@@ -188,7 +188,7 @@ export default function Home() {
                 } else {
                   icon = (
                     <Image
-                      src="/usericon.png"
+                      src="/homme.png"
                       alt="Me"
                       width="30"
                       height="30"
